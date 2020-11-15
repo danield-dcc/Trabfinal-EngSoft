@@ -6,8 +6,11 @@ function sub(){
     //TODO: Implementar subtração
 }
 
-function mult(){
-    //TODO: Implementar multiplicação
+function mult(){ //TODO: Implementar multiplicação
+    let a = Number(prompt("Primerio Número: ") );
+    let b = Number(prompt("Segundo Número: ") );
+    let res = a * b;
+    console.log(`Resultado: ${res}`);
 }
 
 function div(){
