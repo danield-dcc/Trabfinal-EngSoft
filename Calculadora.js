@@ -17,5 +17,8 @@ function mult(){ //TODO: Implementar multiplicação
 }
 
 function div(){
-    //TODO: Implementar divisão
+    let a = Number(prompt("Primeiro Número: "));
+    let b = Number(prompt("Segundo Número: "));
+    let res = a/b;
+    console.log(`Resultado: ${res}`);
 }
