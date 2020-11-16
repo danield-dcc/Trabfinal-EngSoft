@@ -1,0 +1,295 @@
+    1  git config --list
+    2  git help
+    3  git --version
+    4  dwd
+    5  pwd
+    6  cd
+    7  pwd
+    8  cd ..
+    9  cd.
+   10  cd ..
+   11  ls
+   12  cd ..
+   13  çs
+   14  ls
+   15  pwd
+   16  ls
+   17  git --version
+   18  git help
+   19  cd /
+   20  ls
+   21  git help
+   22  git config
+   23  git congig
+   24  git config
+   25  git config --list
+   26  git config --global user.name "Daniel Conceição"
+   27  git config --global user.email "danieldcc.colares@gmail.com"
+   28  git list
+   29  git --list
+   30  git config --list
+   31  git --version
+   32  pwd
+   33  cd/
+   34  cd /
+   35  ls
+   36  pwd
+   37  pwd
+   38  ls
+   39  cd \algoritimos1
+   40  cd c
+   41  ls
+   42  cd algoritimos1
+   43  ls
+   44  ls
+   45  ls -la
+   46  mkdir -p /git/es2
+   47  pnx mkdir git/es2
+   48  mkdir /git/es2
+   49  mkdir git/es2
+   50  ls
+   51  mkdir git
+   52  ls
+   53  cd git
+   54  mkdir es2
+   55  cd
+   56  cd es2
+   57  ls
+   58  pwd
+   59  cd es2
+   60  cd git
+   61  ls
+   62  cd c/algoritimos1
+   63  cd c
+   64  cd/
+   65  cd /
+   66  cd algoritimos
+   67  ls
+   68  cd \algoritimos1
+   69  cd c
+   70  algoritimos1
+   71  cd algoritimos1
+   72  cd git
+   73  ls
+   74  cd es2
+   75  git init
+   76  ls -la
+   77  cd .git
+   78  ls
+   79  cd ..
+   80  git status
+   81  touch file.txt
+   82  status
+   83  git status
+   84  git add file.txt
+   85  git status
+   86  git help
+   87  git commit -m "Cria arquivo vazio de teste"
+   88  touch file2.txt
+   89  touch file3.txt
+   90  clear
+   91  git status
+   92  git add .
+   93  git status
+   94  git commit
+   95  git status
+   96  touch .gitignore
+   97  touch dep.out
+   98  echo "dep.out" > .gitignore
+   99  cat .gitignore
+  100  git status
+  101  git add .
+  102  git commit -m "Adiciona gitignore"
+  103  git status
+  104  git diff
+  105  git dif
+  106  git diff
+  107  echo "file content" > file4.txt
+  108  git diff
+  109  git add .
+  110  git status
+  111  git commit -m "Adiciona arquivo vazio para teste de giff"
+  112  echo "New Content" >> file4.txt
+  113  git diff
+  114  git log
+  115  git log --oneline
+  116  git help log
+  117  ls
+  118  ls -l
+  119  git status
+  120  cat file4.txt
+  121  echo "New linne" >> file4.txt
+  122  git add .
+  123  git commit -m "Aprimora arquivo file4.txt"
+  124  cat file4.txt
+  125  nano file4.txt
+  126  git status
+  127  git add .
+  128  git status
+  129  git commit -m "Aprimora arquivo file4" --amend
+  130  git log
+  131  git log -inline
+  132  git log -oneline
+  133  git log --oneline
+  134  git rest HEAD~1 --soft
+  135  git reset HEAD~1 --soft
+  136  git status
+  137  git commit -m "Aprimora file4"
+  138  git log
+  139  git reset HEAD~1 --hard
+  140  echo "content" >> file4.txt
+  141  git checout file4.txt
+  142  git checout
+  143  git checkout file4.txt
+  144  git status
+  145  git help checkout
+  146  pwd
+  147  git status
+  148  git rm file.txt
+  149  git status
+  150  git commit -m "Remove arquivo file"
+  151  git status
+  152  git tag v1.0.0
+  153  git log
+  154  touch file5.txt
+  155  git add .
+  156  git commit -m "adiciona file5.txt"
+  157  touch file6.txt
+  158  git add .
+  159  git commit -m "adiciona file6.txt"
+  160  git status
+  161  ls
+  162  git checkout v1.0.0
+  163  git checkout master
+  164  git show
+  165  cd c\algoritimos1
+  166  cd c
+  167  cd c:\
+  168  pwd
+  169  ls
+  170  cd /
+  171  cd c
+  172  cd algoritimos1
+  173  git status
+  174  git add .gitignore  package.json package-lock.json 
+  175  git status
+  176  git commit -m "Adiciona arquivos de configuração inicial"
+  177  git add uri1038.js
+  178  git status
+  179  git commit
+  180  git add uri1040.js
+  181  git log -oneline
+  182  git log --oneline
+  183  git add uri1041.js
+  184  git status
+  185  git status
+  186  git add .gitignore
+  187  git status
+  188  git commit -m "Adiciona novo gitignore e uri1041"
+  189  git checkout -b feature/cliente
+  190  git branch
+  191  git status
+  192  git status
+  193  git checkout master
+  194  git checkout feature/cliente
+  195  git checkout master
+  196  git merge feature/cliente 
+  197  ls
+  198  cd git/es2
+  199  ls
+  200  git status
+  201  git checkout master 
+  202  git log
+  203  git rebase feature/x 
+  204  git log --oneline 
+  205  git checkout feature/x 
+  206  cd /
+  207  pwd
+  208  ls
+  209  cd c
+  210  ls
+  211  cd algoritimos1
+  212  ls
+  213  cd git
+  214  ls
+  215  cd es2
+  216  ls
+  217  git checkout master
+  218  git status
+  219  cd ..
+  220  cd ..
+  221  ls
+  222  ssh-keygen -t rsa -b 2048 -C "danieldcc.colares@gmail.com"
+  223  cat ~/.ssh/id_rsa.pub
+  224  pwd
+  225  cd /
+  226  git help
+  227  ls
+  228  cd /
+  229  cd c
+  230  cd C:\Users\danie\OneDrive\Documentos\SENAC-RS\ADS\Sem 2\Engenharia de Sofware\aula26_10\POO
+  231  cd C:\Users\danie\OneDrive\Documentos\SENAC-RS
+  232  cd c
+  233  cd c
+  234  cd \User\danie\OneDrive\Documentos
+  235  ls
+  236  cd 'Arquivos de Programas'/
+  237  ls
+  238  gitmoji -c
+  239  cd C\Users\danie\OneDrive\Documentos\SENAC-RS\ADS\Sem 2\Engenharia de Sofware\aula26_10\POO
+  240  cd c
+  241  cd /
+  242  c Users\danie\OneDrive\Documentos\SENAC-RS\ADS\Sem 2\Engenharia de Sofware\aula26_10\POO
+  243  cd Users\danie\OneDrive\Documentos\SENAC-RS\ADS\Sem 2\Engenharia de Sofware\aula26_10\POO
+  244  cd Users\danie\OneDrive\Documentos\SENAC-RS
+  245  cd Users\danie\OneDrive\
+  246  cd Users
+  247  pwd
+  248  ls
+  249  cd Meus Documentos
+  250  cd 'Meus Documentos'
+  251  git pull
+  252  git status
+  253  git branch
+  254  git status
+  255  git remote show origin
+  256  git fetch
+  257  git checkout origin/master
+  258  git checkout master
+  259  git status
+  260  git checkout feature/menu
+  261  git checkout feature/mult
+  262  git merge origin/feature/mult
+  263  git checkout master
+  264  git remote show origin
+  265  git pull
+  266  git status
+  267  git fetch
+  268  git checkout origin/master
+  269  git checkout master
+  270  git checkout feature/div
+  271  git merge origin/feature/div
+  272  git checkout feature/sub
+  273  git merge origin/feature/sub
+  274  git checkout feature/sum
+  275  git merge origin/feature/sum
+  276  git checkout master
+  277  git merge origin/master
+  278  git remote show origin
+  279  code .
+  280  git status
+  281  gitmoji -i
+  282  git status
+  283  git add .
+  284  git status
+  285  git commit
+  286  git commit
+  287  git push --set-upstream origin master
+  288  git push --set-upstream origin master
+  289  git status
+  290  git tag
+  291  git tag -a 1.0.0 -m "Version 1.0.0"
+  292  git log
+  293  git push --follow -tags
+  294  git push --follow --tags
+  295  history > LOG_Daniel
