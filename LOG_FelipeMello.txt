@@ -1,0 +1,20 @@
+   01  git push git@github.com:danield-dcc/Trabfinal-EngSoft.git
+   02  code .
+   03  cd Trabfinal-EngSoft
+   04  git branch
+   05  git checkout feature/mult
+   06  git branch
+   07  git add Calculadora.js
+   08  git status
+   09  git commit -m ":sparkles: Adicionado função mult"
+   10  git push
+   11  git log
+   12  git checkout master
+   13  git checkout feature/sub
+   14  git branch
+   15  git status
+   16  git add Calculadora.js
+   17  git commit -m ":sparkles: Adicionado função sub"
+   18  git push
+   19  git checkout master
+   20  history > LOG_FelipeMello.txt
