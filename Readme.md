@@ -1,0 +1,1 @@
+O projeto apresenta uma calculadora simples com as funções de soma, subtração, divisão e multiplicação. Também foi adiciona um simples menu para seleção das funções.
